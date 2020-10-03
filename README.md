@@ -204,7 +204,7 @@ In only three simple steps :
 - `docker run -it -d -p 5000:5000 --name <container name> <image_name> /bin/bash`
 - To run in foreground mode `docker run -it -p 5000:5000 --name <container name> <image_name> /bin/bash`
 
-##### Note
+## Note
 
 A more robust version with docker-compose is being developed to separate redis in separate container and allow the deployment of production-level applications automatically without the need of manual provisioning
 
